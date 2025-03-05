@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的免費網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>歡迎來到我的網站</header>
+    <section>
+        <h2>你好！</h2>
+        <p>這是一個免費的網頁，你可以自訂內容！</p>
+        <button onclick="showMessage()">點我</button>
+    </section>
+    <script>
+        function showMessage() {
+            alert("感謝來訪！這是一個簡單的互動按鈕。");
+        }
+    </script>
+</body>
+</html>
